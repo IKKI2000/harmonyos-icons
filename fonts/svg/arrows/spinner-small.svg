@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 12 24" version="1.1">
+    <title>Public/ic_public_spinner_small</title>
+    <defs>
+        <path d="M3.20011069,10 L8.79991509,10 C9.18656131,10 9.5,10.3198306 9.5,10.7143617 C9.5,10.8765728 9.44589691,11.0339542 9.34658956,11.1606199 L6.54668736,14.7318702 C6.30515138,15.0399472 5.86459329,15.0898964 5.56267331,14.8434348 C5.52230312,14.81048 5.48563457,14.7730637 5.45333842,14.7318702 L2.65343622,11.1606199 C2.41190024,10.8525429 2.46085114,10.4030005 2.76277111,10.1565389 C2.8869053,10.0552064 3.04114136,10 3.20011069,10 Z" id="_path-1"/>
+    </defs>
+    <g id="_Public/ic_public_spinner_small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_矩形备份-2" fill="#000000" xlink:href="#_path-1"/>
+    </g>
+</svg>
