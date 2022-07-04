@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" version="1.1">
+    <title>ic_contacts_card_single</title>
+    <defs>
+        <path d="M15.014,1 L21,6.985 L21,19 C21,21.209139 19.209139,23 17,23 L7,23 C4.790861,23 3,21.209139 3,19 L3,5 C3,2.790861 4.790861,1 7,1 L15.014,1 Z" id="_path-1"/>
+    </defs>
+    <g id="_ic_contacts_card_single" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#_path-1"/>
+    </g>
+</svg>
