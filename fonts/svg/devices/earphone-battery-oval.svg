@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 21 20" version="1.1">
+    <title>Devices/Battery/ic_device_battery_earphone_case04</title>
+    <defs>
+        <path d="M1.07086503,9.00016659 L7,9 C7,9.26359045 7.20396945,9.47954128 7.46268441,9.49862857 L7.5,9.5 L13.5,9.5 C13.7635904,9.5 13.9795413,9.29603055 13.9986286,9.03731559 L14,9 L19.929135,9.00016659 C19.9758363,9.32671652 20,9.66053639 20,10 C20,13.8659932 16.8659932,17 13,17 L8,17 C4.13400675,17 1,13.8659932 1,10 C1,9.66053639 1.02416374,9.32671652 1.07086503,9.00016659 Z M13,3 C16.2617295,3 19.0024122,5.23086676 19.7794769,8.25002919 L1.22052309,8.25002919 C1.99758782,5.23086676 4.73827049,3 8,3 L13,3 Z" id="_path-1"/>
+    </defs>
+    <g id="_Devices/Battery/ic_device_battery_earphone_case04" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_形状" fill="#000000" xlink:href="#_path-1"/>
+    </g>
+</svg>

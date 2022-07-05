@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" version="1.1">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Linear/ic_device_pad</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.5,3.75 L3.5,3.75 C1.98121694,3.75 0.75,4.98121694 0.75,6.5 L0.75,17.5 C0.75,19.0187831 1.98121694,20.25 3.5,20.25 L20.5,20.25 C22.0187831,20.25 23.25,19.0187831 23.25,17.5 L23.25,6.5 C23.25,4.98121694 22.0187831,3.75 20.5,3.75 Z M3.5,5.25 L20.5,5.25 C21.1903559,5.25 21.75,5.80964406 21.75,6.5 L21.75,17.5 C21.75,18.1903559 21.1903559,18.75 20.5,18.75 L3.5,18.75 C2.80964406,18.75 2.25,18.1903559 2.25,17.5 L2.25,6.5 C2.25,5.80964406 2.80964406,5.25 3.5,5.25 Z" id="_path-1"/>
+    </defs>
+    <g id="_Linear/ic_device_pad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_Rectangle-Copy-6" fill="#000000" fill-rule="nonzero" xlink:href="#_path-1"/>
+    </g>
+</svg>
