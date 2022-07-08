@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" version="1.1">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Public/ic_public_forbid_filled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 Z M6.34314575,5.28248558 C6.05025253,4.98959236 5.5753788,4.98959236 5.28248558,5.28248558 C4.98959236,5.5753788 4.98959236,6.05025253 5.28248558,6.34314575 L5.28248558,6.34314575 L17.6568542,18.7175144 C17.9497475,19.0104076 18.4246212,19.0104076 18.7175144,18.7175144 C19.0104076,18.4246212 19.0104076,17.9497475 18.7175144,17.6568542 L18.7175144,17.6568542 Z" id="_path-1"/>
+    </defs>
+    <g id="_Public/ic_public_forbid_filled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_合并形状" fill="#000000" fill-rule="nonzero" xlink:href="#_path-1"/>
+    </g>
+</svg>
