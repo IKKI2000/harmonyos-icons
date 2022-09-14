@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" version="1.1">
+    <title>Public/ic_public_cards_filled</title>
+    <defs>
+        <path d="M23,9 L23,17 C23,19.209139 21.209139,21 19,21 L5,21 C2.790861,21 1,19.209139 1,17 L1,9 L23,9 Z M10.25,11 L3.75,11 C3.33578644,11 3,11.3357864 3,11.75 C3,12.1642136 3.33578644,12.5 3.75,12.5 L3.75,12.5 L10.25,12.5 C10.6642136,12.5 11,12.1642136 11,11.75 C11,11.3357864 10.6642136,11 10.25,11 L10.25,11 Z M5,3 L19,3 C21.1421954,3 22.8910789,4.68396847 22.9951047,6.80035966 L23,7 L1,7 C1,4.790861 2.790861,3 5,3 Z" id="_path-1"/>
+    </defs>
+    <g id="_Public/ic_public_cards_filled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_Combined-Shape" fill="#000000" xlink:href="#_path-1"/>
+    </g>
+</svg>

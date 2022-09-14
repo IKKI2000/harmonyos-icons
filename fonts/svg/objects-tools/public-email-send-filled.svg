@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" version="1.1">
+    <title>Public/ic_public_email_send_filled</title>
+    <defs>
+        <path d="M1.90528846,4.90334139 C1.29697783,3.64616608 2.58592311,2.31295024 3.86291658,2.87847592 L3.86291658,2.87847592 L21.3629166,10.6284759 C22.5530643,11.1555413 22.5530643,12.8444587 21.3629166,13.3715241 L21.3629166,13.3715241 L3.86291658,21.1215241 C2.58592311,21.6870498 1.29697783,20.3538339 1.90528846,19.0966586 L1.90528846,19.0966586 L4.872,12.9637241 L18.2531092,12.260376 C18.3730693,12.2540624 18.4708031,12.1682102 18.4962789,12.055554 L18.5027637,11.9972363 C18.5027637,11.8570892 18.3930627,11.7414626 18.2531092,11.7340966 L18.2531092,11.7340966 L4.87,11.0297241 Z" id="_path-1"/>
+    </defs>
+    <g id="_Public/ic_public_email_send_filled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_形状结合" fill="#000000" fill-rule="nonzero" transform="translate(12.002764, 12.000000) rotate(-90.000000) translate(-12.002764, -12.000000) " xlink:href="#_path-1"/>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1.1" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="_uxs-a" x1="0%" x2="100%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#000" stop-opacity=".1"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <path id="_uxs-b" d="M0,0 L0.0740740741,0 C2.79458784,-1.38792869e-15 5,2.20541216 5,4.92592593 L5,23.0356653 C5,25.7561791 2.79458784,27.9615912 0.0740740741,27.9615912 L0,27.9615912 L0,27.9615912 L0,0 Z"/>
+    <linearGradient id="_uxs-c" x1="0%" x2="100%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".1"/>
+    </linearGradient>
+    <path id="_uxs-d" d="M5.11111111,0 L5.18518519,0 L5.18518519,0 L5.18518519,27.9615912 L5.11111111,27.9615912 C2.39059734,27.9615912 0.185185185,25.7561791 0.185185185,23.0356653 L0.185185185,4.92592593 C0.185185185,2.20541216 2.39059734,-3.88428148e-16 5.11111111,0 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(2 2)">
+    <path fill="#000" d="M11.9259259,0 L16.0740741,0 C18.7945878,-4.99750272e-16 21,2.20541216 21,4.92592593 L21,23.0356653 C21,25.7561791 18.7945878,27.9615912 16.0740741,27.9615912 L11.9259259,27.9615912 C9.20541216,27.9615912 7,25.7561791 7,23.0356653 L7,4.92592593 C7,2.20541216 9.20541216,4.99750272e-16 11.9259259,0 Z"/>
+    <use fill="url(#_uxs-a)" xlink:href="#_uxs-b"/>
+    <use fill="url(#_uxs-c)" transform="translate(22.815)" xlink:href="#_uxs-d"/>
+  </g>
+</svg>

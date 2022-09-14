@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" version="1.1" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="_uxs-a" x1="0%" x2="100%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="_uxs-b" x1="0%" x2="100%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".1"/>
+    </linearGradient>
+    <path id="_uxs-c" d="M15.4360895,0.0261795538 L20.25,3.57184824 L20.25,3.57184824 L20.25,22.4274373 L15.4360895,25.973106 C14.5467238,26.6281651 13.2947201,26.4382221 12.639661,25.5488564 C12.3865418,25.2051996 12.25,24.78958 12.25,24.362767 L12.25,1.63651857 C12.25,0.53194907 13.1454305,-0.363481431 14.25,-0.363481431 C14.676813,-0.363481431 15.0924327,-0.226939659 15.4360895,0.0261795538 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(3 3)">
+    <path fill="url(#_uxs-a)" d="M4,3.5 L12.5,3.5 L12.5,3.5 L12.5,22.5 L4,22.5 C1.790861,22.5 2.705415e-16,20.709139 0,18.5 L0,7.5 C-2.705415e-16,5.290861 1.790861,3.5 4,3.5 Z"/>
+    <path fill="url(#_uxs-b)" d="M24.25,3.5 L26,3.5 L26,3.5 L26,22.5 L24.25,22.5 C22.040861,22.5 20.25,20.709139 20.25,18.5 L20.25,7.5 C20.25,5.290861 22.040861,3.5 24.25,3.5 Z" transform="rotate(180 23.125 13)"/>
+    <use fill="#000" transform="rotate(180 16.25 13)" xlink:href="#_uxs-c"/>
+  </g>
+</svg>

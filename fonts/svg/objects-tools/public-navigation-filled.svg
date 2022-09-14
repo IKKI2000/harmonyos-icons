@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" version="1.1">
+    <title>Public/ic_public_navigation_filled</title>
+    <defs>
+        <path d="M10.6663048,2.87060503 L3.13006272,19.9391736 C2.58013518,21.1846851 3.87657871,22.4418537 5.09907904,21.8485399 L12,18.4993287 L18.900921,21.8485399 C20.1234213,22.4418537 21.4198648,21.1846851 20.8699373,19.9391736 L13.3336952,2.87060503 C12.8211671,1.70979832 11.1788329,1.70979832 10.6663048,2.87060503 Z" id="_path-1"/>
+    </defs>
+    <g id="_Public/ic_public_navigation_filled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="_mask-2" fill="white">
+            <use xlink:href="#_path-1"/>
+        </mask>
+        <use id="_路径" fill="#000000" fill-rule="nonzero" transform="translate(12.000000, 12.000000) rotate(-360.000000) translate(-12.000000, -12.000000) " xlink:href="#_path-1"/>
+    </g>
+</svg>
