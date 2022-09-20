@@ -1,0 +1,3659 @@
+@font-face {
+  font-family: 'harmonyos';
+  src:  url('fonts/harmonyos.eot?chhdws');
+  src:  url('fonts/harmonyos.eot?chhdws#iefix') format('embedded-opentype'),
+    url('fonts/harmonyos.ttf?chhdws') format('truetype'),
+    url('fonts/harmonyos.woff?chhdws') format('woff'),
+    url('fonts/harmonyos.svg?chhdws#harmonyos') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="hm-"], [class*=" hm-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'harmonyos' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hm-arrow-up:before {
+  content: "\e900";
+}
+.hm-arrow-down:before {
+  content: "\e901";
+}
+.hm-arrow-left:before {
+  content: "\e902";
+}
+.hm-arrow-left-filled:before {
+  content: "\e903";
+}
+.hm-arrow-right:before {
+  content: "\e904";
+}
+.hm-arrow-right-filled:before {
+  content: "\e905";
+}
+.hm-sort-ascending:before {
+  content: "\e906";
+}
+.hm-sort-descending:before {
+  content: "\e907";
+}
+.hm-back:before {
+  content: "\e908";
+}
+.hm-back-to-top:before {
+  content: "\e909";
+}
+.hm-upload:before {
+  content: "\e90a";
+}
+.hm-upload-filled:before {
+  content: "\e90b";
+}
+.hm-download:before {
+  content: "\e90c";
+}
+.hm-download-filled:before {
+  content: "\e90d";
+}
+.hm-cloud-upload:before {
+  content: "\e90e";
+}
+.hm-cloud-download:before {
+  content: "\e90f";
+}
+.hm-grow:before {
+  content: "\e910";
+}
+.hm-shrink:before {
+  content: "\e911";
+}
+.hm-topping:before {
+  content: "\e912";
+}
+.hm-topping-filled:before {
+  content: "\e913";
+}
+.hm-upgrade:before {
+  content: "\e914";
+}
+.hm-upgrade-filled:before {
+  content: "\e915";
+}
+.hm-send:before {
+  content: "\e916";
+}
+.hm-send-filled:before {
+  content: "\e917";
+}
+.hm-refresh:before {
+  content: "\e918";
+}
+.hm-reset:before {
+  content: "\e919";
+}
+.hm-spinner:before {
+  content: "\e91a";
+}
+.hm-spinner-small:before {
+  content: "\e91b";
+}
+.hm-merge:before {
+  content: "\e91c";
+}
+.hm-sync .path1:before {
+  content: "\e91d";
+  color: rgb(255, 255, 255);
+}
+.hm-sync .path2:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-quick-reply:before {
+  content: "\e91f";
+}
+.hm-forwarding:before {
+  content: "\e920";
+}
+.hm-set:before {
+  content: "\e921";
+}
+.hm-quit:before {
+  content: "\e922";
+}
+.hm-phone:before {
+  content: "\e923";
+}
+.hm-phone-filled:before {
+  content: "\e924";
+}
+.hm-call-vo-lte:before {
+  content: "\e925";
+}
+.hm-call-volte:before {
+  content: "\e926";
+}
+.hm-call-vo4g:before {
+  content: "\e927";
+}
+.hm-call-hd:before {
+  content: "\e928";
+}
+.hm-call-wifi:before {
+  content: "\e929";
+}
+.hm-call-r:before {
+  content: "\e92a";
+}
+.hm-dial-volte:before {
+  content: "\e92b";
+}
+.hm-dial-voz4g:before {
+  content: "\e92c";
+}
+.hm-dial-wifi:before {
+  content: "\e92d";
+}
+.hm-call-dial-wifi:before {
+  content: "\e92e";
+}
+.hm-call-log-volte:before {
+  content: "\e92f";
+}
+.hm-call-log-voz4g:before {
+  content: "\e930";
+}
+.hm-call-log-vowifi:before {
+  content: "\e931";
+}
+.hm-call-log-wifi:before {
+  content: "\e932";
+}
+.hm-call-log-double-line-volte:before {
+  content: "\e933";
+}
+.hm-call-log-double-line-voz4g:before {
+  content: "\e934";
+}
+.hm-call-log-double-line-vowifi:before {
+  content: "\e935";
+}
+.hm-call-log-double-line-vozwifi:before {
+  content: "\e936";
+}
+.hm-hi-call:before {
+  content: "\e937";
+}
+.hm-hi-call-filled:before {
+  content: "\e938";
+}
+.hm-records-sim-call:before {
+  content: "\e939";
+}
+.hm-sys-sim-1-call:before {
+  content: "\e93a";
+}
+.hm-sys-sim-2-call:before {
+  content: "\e93b";
+}
+.hm-sim-card .path1:before {
+  content: "\e93c";
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-sim-card .path2:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-sim-card .path3:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(100, 187, 92);
+}
+.hm-sim-card .path4:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-call-1:before {
+  content: "\e940";
+}
+.hm-call-1-filled:before {
+  content: "\e941";
+}
+.hm-call-2:before {
+  content: "\e942";
+}
+.hm-call-2-filled:before {
+  content: "\e943";
+}
+.hm-encryption-calls:before {
+  content: "\e944";
+}
+.hm-encryption-calls-filled:before {
+  content: "\e945";
+}
+.hm-call-encryption-calls:before {
+  content: "\e946";
+}
+.hm-call-encryption-calls-filled:before {
+  content: "\e947";
+}
+.hm-call-1-encryption-calls:before {
+  content: "\e948";
+}
+.hm-call-2-encryption-calls:before {
+  content: "\e949";
+}
+.hm-call-1-volte:before {
+  content: "\e94a";
+}
+.hm-call-2-volte:before {
+  content: "\e94b";
+}
+.hm-call-1-voz4g:before {
+  content: "\e94c";
+}
+.hm-call-2-voz4g:before {
+  content: "\e94d";
+}
+.hm-call-1-vowifi:before {
+  content: "\e94e";
+}
+.hm-call-2-vowifi:before {
+  content: "\e94f";
+}
+.hm-call-1-hd:before {
+  content: "\e950";
+}
+.hm-call-2-hd:before {
+  content: "\e951";
+}
+.hm-call-1-wifi:before {
+  content: "\e952";
+}
+.hm-call-2-wifi:before {
+  content: "\e953";
+}
+.hm-phone-dial:before {
+  content: "\e954";
+}
+.hm-phone-dial-delete:before {
+  content: "\e955";
+}
+.hm-incoming-filled:before {
+  content: "\e956";
+}
+.hm-missed-filled:before {
+  content: "\e957";
+}
+.hm-refuse-filled:before {
+  content: "\e958";
+}
+.hm-outgoing-filled:before {
+  content: "\e959";
+}
+.hm-video-call-incoming:before {
+  content: "\e95a";
+}
+.hm-video-call-missed:before {
+  content: "\e95b";
+}
+.hm-video-call-refuse:before {
+  content: "\e95c";
+}
+.hm-video-call-outgoing:before {
+  content: "\e95d";
+}
+.hm-rcs-incoming:before {
+  content: "\e95e";
+}
+.hm-rcs-missed:before {
+  content: "\e95f";
+}
+.hm-rcs-refuse:before {
+  content: "\e960";
+}
+.hm-rcs-outgoing:before {
+  content: "\e961";
+}
+.hm-rcs-list-asc:before {
+  content: "\e962";
+}
+.hm-rcs-list-desc:before {
+  content: "\e963";
+}
+.hm-personal-emergency-information:before {
+  content: "\e964";
+}
+.hm-voicemail-voice-to-text:before {
+  content: "\e965";
+}
+.hm-voicemail-voice-to-message:before {
+  content: "\e966";
+}
+.hm-voicemail:before {
+  content: "\e967";
+}
+.hm-voice-message-details:before {
+  content: "\e968";
+}
+.hm-voice-message-details-filled:before {
+  content: "\e969";
+}
+.hm-message:before {
+  content: "\e96a";
+}
+.hm-message-filled:before {
+  content: "\e96b";
+}
+.hm-community-messages:before {
+  content: "\e96c";
+}
+.hm-community-messages-filled:before {
+  content: "\e96d";
+}
+.hm-subject:before {
+  content: "\e96e";
+}
+.hm-comments:before {
+  content: "\e96f";
+}
+.hm-comments-filled:before {
+  content: "\e970";
+}
+.hm-read .path1:before {
+  content: "\e971";
+  color: rgb(70, 177, 227);
+}
+.hm-read .path2:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-connection:before {
+  content: "\e973";
+}
+.hm-connection-filled:before {
+  content: "\e974";
+}
+.hm-mobile-data:before {
+  content: "\e975";
+}
+.hm-mobile-data-filled:before {
+  content: "\e976";
+}
+.hm-wlan:before {
+  content: "\e977";
+}
+.hm-wlan-filled:before {
+  content: "\e978";
+}
+.hm-bluetooth-on:before {
+  content: "\e979";
+}
+.hm-bluetooth-on-filled:before {
+  content: "\e97a";
+}
+.hm-bluetooth-off:before {
+  content: "\e97b";
+}
+.hm-bluetooth-off-filled:before {
+  content: "\e97c";
+}
+.hm-wireless-projection:before {
+  content: "\e97d";
+}
+.hm-wireless-projection-filled:before {
+  content: "\e97e";
+}
+.hm-hd:before {
+  content: "\e97f";
+}
+.hm-g:before {
+  content: "\e980";
+}
+.hm-signal-4g:before {
+  content: "\e981";
+}
+.hm-signal-5g:before {
+  content: "\e982";
+}
+.hm-wifi:before {
+  content: "\e983";
+}
+.hm-wifi6:before {
+  content: "\e984";
+}
+.hm-wifi6-plus:before {
+  content: "\e985";
+}
+.hm-wifi-error:before {
+  content: "\e986";
+}
+.hm-wifi6-error:before {
+  content: "\e987";
+}
+.hm-wifi6-plus-error:before {
+  content: "\e988";
+}
+.hm-wifi-lock:before {
+  content: "\e989";
+}
+.hm-wifi6-lock:before {
+  content: "\e98a";
+}
+.hm-wifi6-plus-lock:before {
+  content: "\e98b";
+}
+.hm-wifi-prohibit:before {
+  content: "\e98c";
+}
+.hm-wifi6-prohibit:before {
+  content: "\e98d";
+}
+.hm-wifi6-plus-prohibit:before {
+  content: "\e98e";
+}
+.hm-wifi-risk:before {
+  content: "\e98f";
+}
+.hm-wifi6-risk:before {
+  content: "\e990";
+}
+.hm-wifi6-plus-risk:before {
+  content: "\e991";
+}
+.hm-wifi-hotspot:before {
+  content: "\e992";
+}
+.hm-hotspot:before {
+  content: "\e993";
+}
+.hm-bluetooth:before {
+  content: "\e994";
+}
+.hm-bluetooth-connect:before {
+  content: "\e995";
+}
+.hm-bluetooth-battery .path1:before {
+  content: "\e996";
+  color: rgb(0, 0, 0);
+}
+.hm-bluetooth-battery .path2:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(6, 1, 1);
+}
+.hm-headphones-connect:before {
+  content: "\e998";
+}
+.hm-bvp-connect .path1:before {
+  content: "\e999";
+  color: rgb(0, 0, 0);
+}
+.hm-bvp-connect .path2:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(6, 1, 1);
+}
+.hm-bvp-connect .path3:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(6, 1, 1);
+}
+.hm-bvp-battery .path1:before {
+  content: "\e99c";
+  color: rgb(0, 0, 0);
+}
+.hm-bvp-battery .path2:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(6, 1, 1);
+}
+.hm-bvp-battery .path3:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(6, 1, 1);
+}
+.hm-glass-battery:before {
+  content: "\e99f";
+}
+.hm-wlan-cast:before {
+  content: "\e9a0";
+}
+.hm-location:before {
+  content: "\e9a1";
+}
+.hm-nfc:before {
+  content: "\e9a2";
+}
+.hm-airplane-mode:before {
+  content: "\e9a3";
+}
+.hm-no-sim:before {
+  content: "\e9a4";
+}
+.hm-eye-care:before {
+  content: "\e9a5";
+}
+.hm-alarm-clock:before {
+  content: "\e9a6";
+}
+.hm-vibration:before {
+  content: "\e9a7";
+}
+.hm-mute:before {
+  content: "\e9a8";
+}
+.hm-no-disturb:before {
+  content: "\e9a9";
+}
+.hm-battery:before {
+  content: "\e9aa";
+}
+.hm-battery-power-saving .path1:before {
+  content: "\e9ab";
+  color: rgb(0, 0, 0);
+}
+.hm-battery-power-saving .path2:before {
+  content: "\e9ac";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-battery-charging .path1:before {
+  content: "\e9ad";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-battery-charging .path2:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: rgb(204, 204, 204);
+}
+.hm-battery-charging .path3:before {
+  content: "\e9af";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-battery-quick-charging .path1:before {
+  content: "\e9b0";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-battery-quick-charging .path2:before {
+  content: "\e9b1";
+  margin-left: -1em;
+  color: rgb(204, 204, 204);
+}
+.hm-battery-quick-charging .path3:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-battery-super-charging .path1:before {
+  content: "\e9b3";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-battery-super-charging .path2:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(204, 204, 204);
+}
+.hm-battery-super-charging .path3:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-battery-wireless-charging .path1:before {
+  content: "\e9b6";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-battery-wireless-charging .path2:before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: rgb(204, 204, 204);
+}
+.hm-battery-wireless-charging .path3:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-battery-wireless-charging .path4:before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-battery-wireless-quick-charging .path1:before {
+  content: "\e9ba";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-battery-wireless-quick-charging .path2:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: rgb(204, 204, 204);
+}
+.hm-battery-wireless-quick-charging .path3:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-battery-wireless-quick-charging .path4:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-battery-wireless-super-charging .path1:before {
+  content: "\e9be";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-battery-wireless-super-charging .path2:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  color: rgb(204, 204, 204);
+}
+.hm-battery-wireless-super-charging .path3:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-battery-wireless-super-charging .path4:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-charging:before {
+  content: "\e9c2";
+}
+.hm-quick-charging:before {
+  content: "\e9c3";
+}
+.hm-super-charging:before {
+  content: "\e9c4";
+}
+.hm-wireless-charging:before {
+  content: "\e9c5";
+}
+.hm-wireless-quick-charging:before {
+  content: "\e9c6";
+}
+.hm-wireless-super-charging:before {
+  content: "\e9c7";
+}
+.hm-reverse-charging:before {
+  content: "\e9c8";
+}
+.hm-reboot:before {
+  content: "\e9c9";
+}
+.hm-power-off:before {
+  content: "\e9ca";
+}
+.hm-mobile-phone:before {
+  content: "\e9cb";
+}
+.hm-mobile-phone-filled:before {
+  content: "\e9cc";
+}
+.hm-foldable-screen:before {
+  content: "\e9cd";
+}
+.hm-foldable-screen-filled .path1:before {
+  content: "\e9ce";
+  color: rgb(0, 0, 0);
+}
+.hm-foldable-screen-filled .path2:before {
+  content: "\e9cf";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-foldable-screen-filled .path3:before {
+  content: "\e9d0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-pad:before {
+  content: "\e9d1";
+}
+.hm-pad-filled .path1:before {
+  content: "\e9d2";
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-pad-filled .path2:before {
+  content: "\e9d3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-mate-book:before {
+  content: "\e9d4";
+}
+.hm-mate-book-filled .path1:before {
+  content: "\e9d5";
+  color: rgb(0, 0, 0);
+}
+.hm-mate-book-filled .path2:before {
+  content: "\e9d6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-smart-screen:before {
+  content: "\e9d7";
+}
+.hm-smart-screen-filled .path1:before {
+  content: "\e9d8";
+  color: rgb(0, 0, 0);
+}
+.hm-smart-screen-filled .path2:before {
+  content: "\e9d9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-watch:before {
+  content: "\e9da";
+}
+.hm-watch-filled .path1:before {
+  content: "\e9db";
+  color: rgb(0, 0, 0);
+}
+.hm-watch-filled .path2:before {
+  content: "\e9dc";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-watch-fit:before {
+  content: "\e9dd";
+}
+.hm-watch-fit-filled .path1:before {
+  content: "\e9de";
+  color: rgb(0, 0, 0);
+}
+.hm-watch-fit-filled .path2:before {
+  content: "\e9df";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-band:before {
+  content: "\e9e0";
+}
+.hm-band-filled .path1:before {
+  content: "\e9e1";
+  color: rgb(0, 0, 0);
+}
+.hm-band-filled .path2:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-kids-watch:before {
+  content: "\e9e3";
+}
+.hm-kids-watch-filled .path1:before {
+  content: "\e9e4";
+  color: rgb(0, 0, 0);
+}
+.hm-kids-watch-filled .path2:before {
+  content: "\e9e5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-shark:before {
+  content: "\e9e6";
+}
+.hm-earphone-shark-filled .path1:before {
+  content: "\e9e7";
+  color: rgb(0, 0, 0);
+}
+.hm-earphone-shark-filled .path2:before {
+  content: "\e9e8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-shark-filled .path3:before {
+  content: "\e9e9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-shark-left:before {
+  content: "\e9ea";
+}
+.hm-earphone-shark-left-filled .path1:before {
+  content: "\e9eb";
+  color: rgb(0, 0, 0);
+}
+.hm-earphone-shark-left-filled .path2:before {
+  content: "\e9ec";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-shark-left-filled .path3:before {
+  content: "\e9ed";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-shark-right:before {
+  content: "\e9ee";
+}
+.hm-earphone-shark-right-filled .path1:before {
+  content: "\e9ef";
+  color: rgb(0, 0, 0);
+  opacity: 0.81;
+}
+.hm-earphone-shark-right-filled .path2:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.324;
+}
+.hm-earphone-shark-right-filled .path3:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.486;
+}
+.hm-earphone-h2:before {
+  content: "\e9f2";
+}
+.hm-earphone-h2-filled .path1:before {
+  content: "\e9f3";
+  color: rgb(0, 0, 0);
+}
+.hm-earphone-h2-filled .path2:before {
+  content: "\e9f4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-h2-filled .path3:before {
+  content: "\e9f5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-h2-left:before {
+  content: "\e9f6";
+}
+.hm-earphone-h2-left-filled .path1:before {
+  content: "\e9f7";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-h2-left-filled .path2:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-h2-left-filled .path3:before {
+  content: "\e9f9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-h2-right:before {
+  content: "\e9fa";
+}
+.hm-earphone-h2-right-filled .path1:before {
+  content: "\e9fb";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-h2-right-filled .path2:before {
+  content: "\e9fc";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-h2-right-filled .path3:before {
+  content: "\e9fd";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-hero:before {
+  content: "\e9fe";
+}
+.hm-earphone-hero-filled .path1:before {
+  content: "\e9ff";
+  color: rgb(0, 0, 0);
+}
+.hm-earphone-hero-filled .path2:before {
+  content: "\ea00";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-hero-filled .path3:before {
+  content: "\ea01";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-hero-left:before {
+  content: "\ea02";
+}
+.hm-earphone-hero-left-filled .path1:before {
+  content: "\ea03";
+  color: rgb(0, 0, 0);
+  opacity: 0.81;
+}
+.hm-earphone-hero-left-filled .path2:before {
+  content: "\ea04";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.324;
+}
+.hm-earphone-hero-left-filled .path3:before {
+  content: "\ea05";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.486;
+}
+.hm-earphone-hero-right:before {
+  content: "\ea06";
+}
+.hm-earphone-hero-right-filled .path1:before {
+  content: "\ea07";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-hero-right-filled .path2:before {
+  content: "\ea08";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-hero-right-filled .path3:before {
+  content: "\ea09";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-mermaid:before {
+  content: "\ea0a";
+}
+.hm-earphone-mermaid-filled .path1:before {
+  content: "\ea0b";
+  color: rgb(0, 0, 0);
+}
+.hm-earphone-mermaid-filled .path2:before {
+  content: "\ea0c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-mermaid-filled .path3:before {
+  content: "\ea0d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-mermaid-left:before {
+  content: "\ea0e";
+}
+.hm-earphone-mermaid-left-filled .path1:before {
+  content: "\ea0f";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-mermaid-left-filled .path2:before {
+  content: "\ea10";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-mermaid-left-filled .path3:before {
+  content: "\ea11";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-mermaid-right:before {
+  content: "\ea12";
+}
+.hm-earphone-mermaid-right-filled .path1:before {
+  content: "\ea13";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-mermaid-right-filled .path2:before {
+  content: "\ea14";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-mermaid-right-filled .path3:before {
+  content: "\ea15";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-otter:before {
+  content: "\ea16";
+}
+.hm-earphone-otter-filled .path1:before {
+  content: "\ea17";
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-otter-filled .path2:before {
+  content: "\ea18";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-otter-filled .path3:before {
+  content: "\ea19";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-earphone-otter-left:before {
+  content: "\ea1a";
+}
+.hm-earphone-otter-left-filled .path1:before {
+  content: "\ea1b";
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-otter-left-filled .path2:before {
+  content: "\ea1c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-otter-left-filled .path3:before {
+  content: "\ea1d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-otter-right:before {
+  content: "\ea1e";
+}
+.hm-earphone-otter-right-filled .path1:before {
+  content: "\ea1f";
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-otter-right-filled .path2:before {
+  content: "\ea20";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-otter-right-filled .path3:before {
+  content: "\ea21";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-walrus:before {
+  content: "\ea22";
+}
+.hm-earphone-walrus-filled .path1:before {
+  content: "\ea23";
+  color: rgb(0, 0, 0);
+}
+.hm-earphone-walrus-filled .path2:before {
+  content: "\ea24";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-walrus-filled .path3:before {
+  content: "\ea25";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-walrus-left:before {
+  content: "\ea26";
+}
+.hm-earphone-walrus-left-filled .path1:before {
+  content: "\ea27";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-walrus-left-filled .path2:before {
+  content: "\ea28";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-walrus-left-filled .path3:before {
+  content: "\ea29";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-walrus-right:before {
+  content: "\ea2a";
+}
+.hm-earphone-walrus-right-filled .path1:before {
+  content: "\ea2b";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-earphone-walrus-right-filled .path2:before {
+  content: "\ea2c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-earphone-walrus-right-filled .path3:before {
+  content: "\ea2d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-nile:before {
+  content: "\ea2e";
+}
+.hm-earphone-nile-filled .path1:before {
+  content: "\ea2f";
+  color: rgb(0, 0, 0);
+}
+.hm-earphone-nile-filled .path2:before {
+  content: "\ea30";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-earphone-battery-round:before {
+  content: "\ea31";
+}
+.hm-earphone-battery-oval:before {
+  content: "\ea32";
+}
+.hm-earphone-battery-flat:before {
+  content: "\ea33";
+}
+.hm-earphone-battery-horizontal:before {
+  content: "\ea34";
+}
+.hm-earphone-battery-vertical:before {
+  content: "\ea35";
+}
+.hm-earphone-battery-left:before {
+  content: "\ea36";
+}
+.hm-earphone-battery-right:before {
+  content: "\ea37";
+}
+.hm-headphone-roc:before {
+  content: "\ea38";
+}
+.hm-headphone-roc-filled .path1:before {
+  content: "\ea39";
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-headphone-roc-filled .path2:before {
+  content: "\ea3a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.hm-headphone:before {
+  content: "\ea3b";
+}
+.hm-headphone-filled .path1:before {
+  content: "\ea3c";
+  color: rgb(0, 0, 0);
+}
+.hm-headphone-filled .path2:before {
+  content: "\ea3d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-headphone-bluetooth:before {
+  content: "\ea3e";
+}
+.hm-headphone-bluetooth-filled .path1:before {
+  content: "\ea3f";
+  color: rgb(0, 0, 0);
+}
+.hm-headphone-bluetooth-filled .path2:before {
+  content: "\ea40";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-sound-x:before {
+  content: "\ea41";
+}
+.hm-sound-x-filled .path1:before {
+  content: "\ea42";
+  color: rgb(0, 0, 0);
+}
+.hm-sound-x-filled .path2:before {
+  content: "\ea43";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-sound-x-filled .path3:before {
+  content: "\ea44";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-sound-ai:before {
+  content: "\ea45";
+}
+.hm-sound-ai-filled .path1:before {
+  content: "\ea46";
+  color: rgb(0, 0, 0);
+}
+.hm-sound-ai-filled .path2:before {
+  content: "\ea47";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-sound:before {
+  content: "\ea48";
+}
+.hm-sound-filled .path1:before {
+  content: "\ea49";
+  color: rgb(0, 0, 0);
+}
+.hm-sound-filled .path2:before {
+  content: "\ea4a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-sound-cm530:before {
+  content: "\ea4b";
+}
+.hm-sound-cm530-filled .path1:before {
+  content: "\ea4c";
+  color: rgb(0, 0, 0);
+}
+.hm-sound-cm530-filled .path2:before {
+  content: "\ea4d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-sound-cm530-filled .path3:before {
+  content: "\ea4e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-sound-cm510:before {
+  content: "\ea4f";
+}
+.hm-sound-cm510-filled .path1:before {
+  content: "\ea50";
+  color: rgb(0, 0, 0);
+}
+.hm-sound-cm510-filled .path2:before {
+  content: "\ea51";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-sound-cm510-filled .path3:before {
+  content: "\ea52";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-skylark:before {
+  content: "\ea53";
+}
+.hm-skylark-filled .path1:before {
+  content: "\ea54";
+  color: rgb(0, 0, 0);
+  opacity: 0.486;
+}
+.hm-skylark-filled .path2:before {
+  content: "\ea55";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.81;
+}
+.hm-skylark-group:before {
+  content: "\ea56";
+}
+.hm-skylark-group-filled .path1:before {
+  content: "\ea57";
+  color: rgb(0, 0, 0);
+  opacity: 0.486;
+}
+.hm-skylark-group-filled .path2:before {
+  content: "\ea58";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.81;
+}
+.hm-egretta:before {
+  content: "\ea59";
+}
+.hm-egretta-filled .path1:before {
+  content: "\ea5a";
+  color: rgb(0, 0, 0);
+  opacity: 0.81;
+}
+.hm-egretta-filled .path2:before {
+  content: "\ea5b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.486;
+}
+.hm-egretta-group:before {
+  content: "\ea5c";
+}
+.hm-egretta-group-filled .path1:before {
+  content: "\ea5d";
+  color: rgb(0, 0, 0);
+  opacity: 0.81;
+}
+.hm-egretta-group-filled .path2:before {
+  content: "\ea5e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.486;
+}
+.hm-glass:before {
+  content: "\ea5f";
+}
+.hm-glass-filled .path1:before {
+  content: "\ea60";
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-glass-filled .path2:before {
+  content: "\ea61";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-glass-filled .path3:before {
+  content: "\ea62";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-vrglass:before {
+  content: "\ea63";
+}
+.hm-vrglass-filled .path1:before {
+  content: "\ea64";
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-vrglass-filled .path2:before {
+  content: "\ea65";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.hm-vrglass-filled .path3:before {
+  content: "\ea66";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-vrglass-filled .path4:before {
+  content: "\ea67";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.hm-input-keyboard:before {
+  content: "\ea68";
+}
+.hm-input-voice:before {
+  content: "\ea69";
+}
+.hm-input-search:before {
+  content: "\ea6a";
+}
+.hm-input-scan:before {
+  content: "\ea6b";
+}
+.hm-input-code:before {
+  content: "\ea6c";
+}
+.hm-text:before {
+  content: "\ea6d";
+}
+.hm-text-filled:before {
+  content: "\ea6e";
+}
+.hm-search:before {
+  content: "\ea6f";
+}
+.hm-search-filled:before {
+  content: "\ea70";
+}
+.hm-scan:before {
+  content: "\ea71";
+}
+.hm-scan-filled:before {
+  content: "\ea72";
+}
+.hm-translate-c2e:before {
+  content: "\ea73";
+}
+.hm-translate-e2c:before {
+  content: "\ea74";
+}
+.hm-search-title:before {
+  content: "\ea75";
+}
+.hm-search-text:before {
+  content: "\ea76";
+}
+.hm-search-things:before {
+  content: "\ea77";
+}
+.hm-switch-audio:before {
+  content: "\ea78";
+}
+.hm-switch-camera:before {
+  content: "\ea79";
+}
+.hm-new:before {
+  content: "\ea7a";
+}
+.hm-new-filled:before {
+  content: "\ea7b";
+}
+.hm-confirm:before {
+  content: "\ea7c";
+}
+.hm-confirm-filled:before {
+  content: "\ea7d";
+}
+.hm-cancel:before {
+  content: "\ea7e";
+}
+.hm-cancel-filled:before {
+  content: "\ea7f";
+}
+.hm-add:before {
+  content: "\ea80";
+}
+.hm-add-filled:before {
+  content: "\ea81";
+}
+.hm-remove:before {
+  content: "\ea82";
+}
+.hm-remove-filled:before {
+  content: "\ea83";
+}
+.hm-ok:before {
+  content: "\ea84";
+}
+.hm-ok-filled:before {
+  content: "\ea85";
+}
+.hm-close:before {
+  content: "\ea86";
+}
+.hm-close-filled:before {
+  content: "\ea87";
+}
+.hm-list-add-transparent .path1:before {
+  content: "\ea88";
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+.hm-list-add-transparent .path2:before {
+  content: "\ea89";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-list-add .path1:before {
+  content: "\ea8a";
+  color: rgb(10, 89, 247);
+}
+.hm-list-add .path2:before {
+  content: "\ea8b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-list-remove .path1:before {
+  content: "\ea8c";
+  color: rgb(255, 255, 255);
+}
+.hm-list-remove .path2:before {
+  content: "\ea8d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.hm-list-delete .path1:before {
+  content: "\ea8e";
+  color: rgb(232, 64, 38);
+}
+.hm-list-delete .path2:before {
+  content: "\ea8f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-folder:before {
+  content: "\ea90";
+}
+.hm-folder_filled:before {
+  content: "\ea91";
+}
+.hm-new-folder:before {
+  content: "\ea92";
+}
+.hm-view-grid:before {
+  content: "\ea93";
+}
+.hm-view-list:before {
+  content: "\ea94";
+}
+.hm-view-list-filled:before {
+  content: "\ea95";
+}
+.hm-list-name:before {
+  content: "\ea96";
+}
+.hm-rename:before {
+  content: "\ea97";
+}
+.hm-select:before {
+  content: "\ea98";
+}
+.hm-select-all:before {
+  content: "\ea99";
+}
+.hm-select-all-filled:before {
+  content: "\ea9a";
+}
+.hm-drag-handle:before {
+  content: "\ea9b";
+}
+.hm-drag-handle-filled:before {
+  content: "\ea9c";
+}
+.hm-share:before {
+  content: "\ea9d";
+}
+.hm-share-filled:before {
+  content: "\ea9e";
+}
+.hm-copy:before {
+  content: "\ea9f";
+}
+.hm-copy-filled:before {
+  content: "\eaa0";
+}
+.hm-move:before {
+  content: "\eaa1";
+}
+.hm-move_filled:before {
+  content: "\eaa2";
+}
+.hm-edit:before {
+  content: "\eaa3";
+}
+.hm-edit-filled:before {
+  content: "\eaa4";
+}
+.hm-delete:before {
+  content: "\eaa5";
+}
+.hm-delete-filled:before {
+  content: "\eaa6";
+}
+.hm-more:before {
+  content: "\eaa7";
+}
+.hm-more-filled:before {
+  content: "\eaa8";
+}
+.hm-more-list:before {
+  content: "\eaa9";
+}
+.hm-move-in-album:before {
+  content: "\eaaa";
+}
+.hm-move-out-album:before {
+  content: "\eaab";
+}
+.hm-photo-edit-location:before {
+  content: "\eaac";
+}
+.hm-photo-edit-create:before {
+  content: "\eaad";
+}
+.hm-photo-edit-collage:before {
+  content: "\eaae";
+}
+.hm-photo-edit-document-correction:before {
+  content: "\eaaf";
+}
+.hm-photo-edit-crop-1-1:before {
+  content: "\eab0";
+}
+.hm-photo-edit-crop-2-3:before {
+  content: "\eab1";
+}
+.hm-photo-edit-crop-3-2:before {
+  content: "\eab2";
+}
+.hm-photo-edit-crop-3-4:before {
+  content: "\eab3";
+}
+.hm-photo-edit-crop-4-3:before {
+  content: "\eab4";
+}
+.hm-photo-edit-crop-9-16:before {
+  content: "\eab5";
+}
+.hm-photo-edit-crop-16-9:before {
+  content: "\eab6";
+}
+.hm-photo-edit-crop-9-21:before {
+  content: "\eab7";
+}
+.hm-photo-edit-crop-21-9:before {
+  content: "\eab8";
+}
+.hm-photo-edit-rotate:before {
+  content: "\eab9";
+}
+.hm-photo-edit-rectify:before {
+  content: "\eaba";
+}
+.hm-photo-edit-free:before {
+  content: "\eabb";
+}
+.hm-photo-edit-more:before {
+  content: "\eabc";
+}
+.hm-screenshot-arbitrary-graphics:before {
+  content: "\eabd";
+}
+.hm-screenshot-rectangle:before {
+  content: "\eabe";
+}
+.hm-screenshot-pen-shape:before {
+  content: "\eabf";
+}
+.hm-screenshot-waveform:before {
+  content: "\eac0";
+}
+.hm-screenshot-arrowhead:before {
+  content: "\eac1";
+}
+.hm-screenshot-line:before {
+  content: "\eac2";
+}
+.hm-screenshot-square:before {
+  content: "\eac3";
+}
+.hm-screenshot-circle:before {
+  content: "\eac4";
+}
+.hm-screenshot-thickness:before {
+  content: "\eac5";
+}
+.hm-screenshot-graffiti:before {
+  content: "\eac6";
+}
+.hm-screenshot-mosaic:before {
+  content: "\eac7";
+}
+.hm-screenshot-scrollshot:before {
+  content: "\eac8";
+}
+.hm-files-document .path1:before {
+  content: "\eac9";
+  color: rgb(97, 164, 255);
+}
+.hm-files-document .path2:before {
+  content: "\eaca";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-document .path3:before {
+  content: "\eacb";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document .path4:before {
+  content: "\eacc";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document .path5:before {
+  content: "\eacd";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-txt .path1:before {
+  content: "\eace";
+  color: rgb(97, 164, 255);
+}
+.hm-files-document-txt .path2:before {
+  content: "\eacf";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-document-txt .path3:before {
+  content: "\ead0";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-txt .path4:before {
+  content: "\ead1";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-txt .path5:before {
+  content: "\ead2";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-txt .path6:before {
+  content: "\ead3";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-txt .path7:before {
+  content: "\ead4";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-txt .path8:before {
+  content: "\ead5";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-log .path1:before {
+  content: "\ead6";
+  color: rgb(180, 196, 208);
+}
+.hm-files-document-log .path2:before {
+  content: "\ead7";
+  margin-left: -0.875em;
+  color: rgb(210, 221, 230);
+}
+.hm-files-document-log .path3:before {
+  content: "\ead8";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-log .path4:before {
+  content: "\ead9";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-log .path5:before {
+  content: "\eada";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-xml .path1:before {
+  content: "\eadb";
+  color: rgb(180, 196, 208);
+}
+.hm-files-document-xml .path2:before {
+  content: "\eadc";
+  margin-left: -0.875em;
+  color: rgb(210, 221, 230);
+}
+.hm-files-document-xml .path3:before {
+  content: "\eadd";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-xml .path4:before {
+  content: "\eade";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-xml .path5:before {
+  content: "\eadf";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-xml .path6:before {
+  content: "\eae0";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-html .path1:before {
+  content: "\eae1";
+  color: rgb(97, 164, 255);
+}
+.hm-files-document-html .path2:before {
+  content: "\eae2";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-document-html .path3:before {
+  content: "\eae3";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-html .path4:before {
+  content: "\eae4";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-html .path5:before {
+  content: "\eae5";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-html .path6:before {
+  content: "\eae6";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-html .path7:before {
+  content: "\eae7";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-html .path8:before {
+  content: "\eae8";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-html .path9:before {
+  content: "\eae9";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-chm .path1:before {
+  content: "\eaea";
+  color: rgb(97, 164, 255);
+}
+.hm-files-document-chm .path2:before {
+  content: "\eaeb";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-document-chm .path3:before {
+  content: "\eaec";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-chm .path4:before {
+  content: "\eaed";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-chm .path5:before {
+  content: "\eaee";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-chm .path6:before {
+  content: "\eaef";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-chm .path7:before {
+  content: "\eaf0";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-docx .path1:before {
+  content: "\eaf1";
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-docx .path2:before {
+  content: "\eaf2";
+  margin-left: -0.875em;
+  color: rgb(97, 164, 255);
+}
+.hm-files-document-docx .path3:before {
+  content: "\eaf3";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-document-docx .path4:before {
+  content: "\eaf4";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-xlsx .path1:before {
+  content: "\eaf5";
+  color: rgb(56, 196, 140);
+}
+.hm-files-document-xlsx .path2:before {
+  content: "\eaf6";
+  margin-left: -0.875em;
+  color: rgb(95, 229, 176);
+}
+.hm-files-document-xlsx .path3:before {
+  content: "\eaf7";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-xlsx .path4:before {
+  content: "\eaf8";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-pptx .path1:before {
+  content: "\eaf9";
+  color: rgb(245, 124, 67);
+}
+.hm-files-document-pptx .path2:before {
+  content: "\eafa";
+  margin-left: -0.875em;
+  color: rgb(254, 182, 148);
+}
+.hm-files-document-pptx .path3:before {
+  content: "\eafb";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-pptx .path4:before {
+  content: "\eafc";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-pdf .path1:before {
+  content: "\eafd";
+  color: rgb(255, 92, 89);
+}
+.hm-files-document-pdf .path2:before {
+  content: "\eafe";
+  margin-left: -0.875em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-document-pdf .path3:before {
+  content: "\eaff";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-pdf .path4:before {
+  content: "\eb00";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-pdf .path5:before {
+  content: "\eb01";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-document-pdf .path6:before {
+  content: "\eb02";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-image .path1:before {
+  content: "\eb03";
+  color: rgb(103, 204, 103);
+}
+.hm-files-image .path2:before {
+  content: "\eb04";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-image .path3:before {
+  content: "\eb05";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-image .path4:before {
+  content: "\eb06";
+  margin-left: -0.875em;
+  color: rgb(150, 237, 150);
+}
+.hm-files-audio .path1:before {
+  content: "\eb07";
+  color: rgb(251, 91, 165);
+}
+.hm-files-audio .path2:before {
+  content: "\eb08";
+  margin-left: -1em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-audio .path3:before {
+  content: "\eb09";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wav .path1:before {
+  content: "\eb0a";
+  color: rgb(251, 91, 165);
+}
+.hm-files-audio-wav .path2:before {
+  content: "\eb0b";
+  margin-left: -0.875em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-audio-wav .path3:before {
+  content: "\eb0c";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wav .path4:before {
+  content: "\eb0d";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wav .path5:before {
+  content: "\eb0e";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wav .path6:before {
+  content: "\eb0f";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wav .path7:before {
+  content: "\eb10";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-mp3 .path1:before {
+  content: "\eb11";
+  color: rgb(251, 91, 165);
+}
+.hm-files-audio-mp3 .path2:before {
+  content: "\eb12";
+  margin-left: -0.875em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-audio-mp3 .path3:before {
+  content: "\eb13";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-mp3 .path4:before {
+  content: "\eb14";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-mp3 .path5:before {
+  content: "\eb15";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-mp3 .path6:before {
+  content: "\eb16";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wma .path1:before {
+  content: "\eb17";
+  color: rgb(251, 91, 165);
+}
+.hm-files-audio-wma .path2:before {
+  content: "\eb18";
+  margin-left: -0.875em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-audio-wma .path3:before {
+  content: "\eb19";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wma .path4:before {
+  content: "\eb1a";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wma .path5:before {
+  content: "\eb1b";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wma .path6:before {
+  content: "\eb1c";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-wma .path7:before {
+  content: "\eb1d";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-flac .path1:before {
+  content: "\eb1e";
+  color: rgb(251, 91, 165);
+}
+.hm-files-audio-flac .path2:before {
+  content: "\eb1f";
+  margin-left: -0.875em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-audio-flac .path3:before {
+  content: "\eb20";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-flac .path4:before {
+  content: "\eb21";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-flac .path5:before {
+  content: "\eb22";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-flac .path6:before {
+  content: "\eb23";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-flac .path7:before {
+  content: "\eb24";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-flac .path8:before {
+  content: "\eb25";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-flac .path9:before {
+  content: "\eb26";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-ape .path1:before {
+  content: "\eb27";
+  color: rgb(251, 91, 165);
+}
+.hm-files-audio-ape .path2:before {
+  content: "\eb28";
+  margin-left: -0.875em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-audio-ape .path3:before {
+  content: "\eb29";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-ape .path4:before {
+  content: "\eb2a";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-ape .path5:before {
+  content: "\eb2b";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-ape .path6:before {
+  content: "\eb2c";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-ape .path7:before {
+  content: "\eb2d";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-ape .path8:before {
+  content: "\eb2e";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-m4a .path1:before {
+  content: "\eb2f";
+  color: rgb(251, 91, 165);
+}
+.hm-files-audio-m4a .path2:before {
+  content: "\eb30";
+  margin-left: -0.875em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-audio-m4a .path3:before {
+  content: "\eb31";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-m4a .path4:before {
+  content: "\eb32";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-m4a .path5:before {
+  content: "\eb33";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-m4a .path6:before {
+  content: "\eb34";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-m4a .path7:before {
+  content: "\eb35";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-amr .path1:before {
+  content: "\eb36";
+  color: rgb(251, 91, 165);
+}
+.hm-files-audio-amr .path2:before {
+  content: "\eb37";
+  margin-left: -0.875em;
+  color: rgb(255, 166, 178);
+}
+.hm-files-audio-amr .path3:before {
+  content: "\eb38";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-amr .path4:before {
+  content: "\eb39";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-amr .path5:before {
+  content: "\eb3a";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-amr .path6:before {
+  content: "\eb3b";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-amr .path7:before {
+  content: "\eb3c";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-audio-amr .path8:before {
+  content: "\eb3d";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-video .path1:before {
+  content: "\eb3e";
+  color: rgb(245, 124, 67);
+}
+.hm-files-video .path2:before {
+  content: "\eb3f";
+  margin-left: -0.875em;
+  color: rgb(254, 182, 148);
+}
+.hm-files-video .path3:before {
+  content: "\eb40";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress .path1:before {
+  content: "\eb41";
+  color: rgb(97, 164, 255);
+}
+.hm-files-compress .path2:before {
+  content: "\eb42";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-compress .path3:before {
+  content: "\eb43";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress .path4:before {
+  content: "\eb44";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress .path5:before {
+  content: "\eb45";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress .path6:before {
+  content: "\eb46";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress .path7:before {
+  content: "\eb47";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress .path8:before {
+  content: "\eb48";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress .path9:before {
+  content: "\eb49";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress .path10:before {
+  content: "\eb4a";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path1:before {
+  content: "\eb4b";
+  color: rgb(97, 164, 255);
+}
+.hm-files-compress-zip .path2:before {
+  content: "\eb4c";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-compress-zip .path3:before {
+  content: "\eb4d";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path4:before {
+  content: "\eb4e";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path5:before {
+  content: "\eb4f";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path6:before {
+  content: "\eb50";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path7:before {
+  content: "\eb51";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path8:before {
+  content: "\eb52";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path9:before {
+  content: "\eb53";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path10:before {
+  content: "\eb54";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path11:before {
+  content: "\eb55";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path12:before {
+  content: "\eb56";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-zip .path13:before {
+  content: "\eb57";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path1:before {
+  content: "\eb58";
+  color: rgb(97, 164, 255);
+}
+.hm-files-compress-rar .path2:before {
+  content: "\eb59";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-compress-rar .path3:before {
+  content: "\eb5a";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path4:before {
+  content: "\eb5b";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path5:before {
+  content: "\eb5c";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path6:before {
+  content: "\eb5d";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path7:before {
+  content: "\eb5e";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path8:before {
+  content: "\eb5f";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path9:before {
+  content: "\eb60";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path10:before {
+  content: "\eb61";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path11:before {
+  content: "\eb62";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path12:before {
+  content: "\eb63";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path13:before {
+  content: "\eb64";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path14:before {
+  content: "\eb65";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path15:before {
+  content: "\eb66";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-rar .path16:before {
+  content: "\eb67";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path1:before {
+  content: "\eb68";
+  color: rgb(97, 164, 255);
+}
+.hm-files-compress-7z .path2:before {
+  content: "\eb69";
+  margin-left: -0.875em;
+  color: rgb(162, 201, 255);
+}
+.hm-files-compress-7z .path3:before {
+  content: "\eb6a";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path4:before {
+  content: "\eb6b";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path5:before {
+  content: "\eb6c";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path6:before {
+  content: "\eb6d";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path7:before {
+  content: "\eb6e";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path8:before {
+  content: "\eb6f";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path9:before {
+  content: "\eb70";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path10:before {
+  content: "\eb71";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path11:before {
+  content: "\eb72";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-compress-7z .path12:before {
+  content: "\eb73";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-contact .path1:before {
+  content: "\eb74";
+  color: rgb(103, 204, 103);
+}
+.hm-files-contact .path2:before {
+  content: "\eb75";
+  margin-left: -0.875em;
+  color: rgb(150, 237, 150);
+}
+.hm-files-contact .path3:before {
+  content: "\eb76";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-calendar .path1:before {
+  content: "\eb77";
+  color: rgb(103, 204, 103);
+}
+.hm-files-calendar .path2:before {
+  content: "\eb78";
+  margin-left: -0.875em;
+  color: rgb(150, 237, 150);
+}
+.hm-files-calendar .path3:before {
+  content: "\eb79";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-calendar .path4:before {
+  content: "\eb7a";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-download .path1:before {
+  content: "\eb7b";
+  color: rgb(103, 204, 103);
+}
+.hm-files-download .path2:before {
+  content: "\eb7c";
+  margin-left: -0.875em;
+  color: rgb(150, 237, 150);
+}
+.hm-files-download .path3:before {
+  content: "\eb7d";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-download .path4:before {
+  content: "\eb7e";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-application .path1:before {
+  content: "\eb7f";
+  color: rgb(56, 196, 140);
+}
+.hm-files-application .path2:before {
+  content: "\eb80";
+  margin-left: -0.875em;
+  color: rgb(95, 229, 176);
+}
+.hm-files-application .path3:before {
+  content: "\eb81";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-application .path4:before {
+  content: "\eb82";
+  margin-left: -0.875em;
+  color: rgb(56, 196, 140);
+}
+.hm-files-application .path5:before {
+  content: "\eb83";
+  margin-left: -0.875em;
+  color: rgb(56, 196, 140);
+}
+.hm-files-application .path6:before {
+  content: "\eb84";
+  margin-left: -0.875em;
+  color: rgb(56, 196, 140);
+}
+.hm-files-unknown .path1:before {
+  content: "\eb85";
+  color: rgb(180, 196, 208);
+}
+.hm-files-unknown .path2:before {
+  content: "\eb86";
+  margin-left: -0.875em;
+  color: rgb(210, 221, 230);
+}
+.hm-files-unknown .path3:before {
+  content: "\eb87";
+  margin-left: -0.875em;
+  color: rgb(255, 255, 255);
+}
+.hm-files-folder .path1:before {
+  content: "\eb88";
+  color: rgb(255, 168, 0);
+}
+.hm-files-folder .path2:before {
+  content: "\eb89";
+  margin-left: -1.185546875em;
+  color: rgb(210, 142, 27);
+  opacity: 0.5;
+}
+.hm-files-folder .path3:before {
+  content: "\eb8a";
+  margin-left: -1.185546875em;
+  color: rgb(255, 243, 226);
+}
+.hm-files-folder .path4:before {
+  content: "\eb8b";
+  margin-left: -1.185546875em;
+  color: rgb(255, 199, 80);
+}
+.hm-files-folder-empty .path1:before {
+  content: "\eb8c";
+  color: rgb(255, 168, 0);
+}
+.hm-files-folder-empty .path2:before {
+  content: "\eb8d";
+  margin-left: -1.185546875em;
+  color: rgb(210, 142, 27);
+  opacity: 0.5;
+}
+.hm-files-folder-empty .path3:before {
+  content: "\eb8e";
+  margin-left: -1.185546875em;
+  color: rgb(255, 199, 80);
+}
+.hm-contacts:before {
+  content: "\eb8f";
+}
+.hm-contacts-filled:before {
+  content: "\eb90";
+}
+.hm-contacts-group:before {
+  content: "\eb91";
+}
+.hm-contacts-group-filled:before {
+  content: "\eb92";
+}
+.hm-contacts-add:before {
+  content: "\eb93";
+}
+.hm-contacts-add-filled:before {
+  content: "\eb94";
+}
+.hm-contacts-add-group:before {
+  content: "\eb95";
+}
+.hm-contacts-add-group-filled:before {
+  content: "\eb96";
+}
+.hm-nickname:before {
+  content: "\eb97";
+}
+.hm-nickname-filled:before {
+  content: "\eb98";
+}
+.hm-contacts-block:before {
+  content: "\eb99";
+}
+.hm-assistant:before {
+  content: "\eb9a";
+}
+.hm-assistant-filled:before {
+  content: "\eb9b";
+}
+.hm-business-card:before {
+  content: "\eb9c";
+}
+.hm-business-card-filled:before {
+  content: "\eb9d";
+}
+.hm-portrait .path1:before {
+  content: "\eb9e";
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.hm-portrait .path2:before {
+  content: "\eb9f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.729;
+}
+.hm-detail:before {
+  content: "\eba0";
+}
+.hm-detail-filled:before {
+  content: "\eba1";
+}
+.hm-help:before {
+  content: "\eba2";
+}
+.hm-help-filled:before {
+  content: "\eba3";
+}
+.hm-forbid:before {
+  content: "\eba4";
+}
+.hm-forbid-filled:before {
+  content: "\eba5";
+}
+.hm-fail:before {
+  content: "\eba6";
+}
+.hm-fail-filled:before {
+  content: "\eba7";
+}
+.hm-error .path1:before {
+  content: "\eba8";
+  color: rgb(232, 64, 38);
+}
+.hm-error .path2:before {
+  content: "\eba9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-privacy-statement:before {
+  content: "\ebaa";
+}
+.hm-allergies-reaction:before {
+  content: "\ebab";
+}
+.hm-keyboard-menu:before {
+  content: "\ebac";
+}
+.hm-keyboard-default:before {
+  content: "\ebad";
+}
+.hm-keyboard-pinyin:before {
+  content: "\ebae";
+}
+.hm-keyboard-wubi:before {
+  content: "\ebaf";
+}
+.hm-keyboard-zhuyin:before {
+  content: "\ebb0";
+}
+.hm-keyboard-cangjie:before {
+  content: "\ebb1";
+}
+.hm-keyboard-handwritten:before {
+  content: "\ebb2";
+}
+.hm-keyboard-language:before {
+  content: "\ebb3";
+}
+.hm-keyboard-mode:before {
+  content: "\ebb4";
+}
+.hm-keyboard-one-hand:before {
+  content: "\ebb5";
+}
+.hm-keyboard-float:before {
+  content: "\ebb6";
+}
+.hm-keyboard-thumb:before {
+  content: "\ebb7";
+}
+.hm-keyboard-size:before {
+  content: "\ebb8";
+}
+.hm-keyboard-magnify:before {
+  content: "\ebb9";
+}
+.hm-keyboard-move:before {
+  content: "\ebba";
+}
+.hm-keyboard-resize:before {
+  content: "\ebbb";
+}
+.hm-keyboard-restore:before {
+  content: "\ebbc";
+}
+.hm-keyboard-selector:before {
+  content: "\ebbd";
+}
+.hm-keyboard-cursor-left:before {
+  content: "\ebbe";
+}
+.hm-keyboard-cursor-right:before {
+  content: "\ebbf";
+}
+.hm-keyboard-delete:before {
+  content: "\ebc0";
+}
+.hm-keyboard-enter:before {
+  content: "\ebc1";
+}
+.hm-keyboard-feedback:before {
+  content: "\ebc2";
+}
+.hm-keyboard-mechanical:before {
+  content: "\ebc3";
+}
+.hm-keyboard-swipe-up:before {
+  content: "\ebc4";
+}
+.hm-keyboard-traditional:before {
+  content: "\ebc5";
+}
+.hm-keyboard-en-associate:before {
+  content: "\ebc6";
+}
+.hm-keyboard-uppercase:before {
+  content: "\ebc7";
+}
+.hm-keyboard-lowercase:before {
+  content: "\ebc8";
+}
+.hm-keyboard-reverse-handed:before {
+  content: "\ebc9";
+}
+.hm-camera-motion-photo:before {
+  content: "\ebca";
+}
+.hm-camera-sound-photo:before {
+  content: "\ebcb";
+}
+.hm-camera-video:before {
+  content: "\ebcc";
+}
+.hm-camera-ai-on:before {
+  content: "\ebcd";
+}
+.hm-camera-ai-off:before {
+  content: "\ebce";
+}
+.hm-camera-fliter:before {
+  content: "\ebcf";
+}
+.hm-camera-aperture:before {
+  content: "\ebd0";
+}
+.hm-camera-aperture-on:before {
+  content: "\ebd1";
+}
+.hm-camera-aperture-off:before {
+  content: "\ebd2";
+}
+.hm-camera-aspect-ratio:before {
+  content: "\ebd3";
+}
+.hm-camera-aspect-ratio-filled:before {
+  content: "\ebd4";
+}
+.hm-camera-video-resolution:before {
+  content: "\ebd5";
+}
+.hm-camera-zoom:before {
+  content: "\ebd6";
+}
+.hm-camera-wide-angle:before {
+  content: "\ebd7";
+}
+.hm-camera-continuous-shooting:before {
+  content: "\ebd8";
+}
+.hm-camera-3d:before {
+  content: "\ebd9";
+}
+.hm-camera-compose:before {
+  content: "\ebda";
+}
+.hm-camera-full-screen .path1:before {
+  content: "\ebdb";
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.hm-camera-full-screen .path2:before {
+  content: "\ebdc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-media-music:before {
+  content: "\ebdd";
+}
+.hm-media-music-filled:before {
+  content: "\ebde";
+}
+.hm-media-play:before {
+  content: "\ebdf";
+}
+.hm-media-play-filled:before {
+  content: "\ebe0";
+}
+.hm-media-pause:before {
+  content: "\ebe1";
+}
+.hm-media-pause-filled:before {
+  content: "\ebe2";
+}
+.hm-media-play-previous:before {
+  content: "\ebe3";
+}
+.hm-media-play-next:before {
+  content: "\ebe4";
+}
+.hm-media-order-play:before {
+  content: "\ebe5";
+}
+.hm-media-shuffle-play:before {
+  content: "\ebe6";
+}
+.hm-media-loop-play:before {
+  content: "\ebe7";
+}
+.hm-media-single-loop-play:before {
+  content: "\ebe8";
+}
+.hm-media-random-play:before {
+  content: "\ebe9";
+}
+.hm-controlcenter-flightmode-filled:before {
+  content: "\ebea";
+}
+.hm-controlcenter-5G-filled:before {
+  content: "\ebeb";
+}
+.hm-controlcenter-mobiledata-filled:before {
+  content: "\ebec";
+}
+.hm-controlcenter-wlan-filled:before {
+  content: "\ebed";
+}
+.hm-controlcenter-bluetooth-filled:before {
+  content: "\ebee";
+}
+.hm-controlcenter-location-filled:before {
+  content: "\ebef";
+}
+.hm-controlcenter-nfc-filled:before {
+  content: "\ebf0";
+}
+.hm-controlcenter-huaweishare-filled:before {
+  content: "\ebf1";
+}
+.hm-controlcenter-hotspot-filled:before {
+  content: "\ebf2";
+}
+.hm-controlcenter-wireless-projection-filled:before {
+  content: "\ebf3";
+}
+.hm-switch-multi-screen:before {
+  content: "\ebf4";
+}
+.hm-controlcenter-eyeconfort-filled:before {
+  content: "\ebf5";
+}
+.hm-controlcenter-dark-filled:before {
+  content: "\ebf6";
+}
+.hm-controlcenter-auto-rotate-filled:before {
+  content: "\ebf7";
+}
+.hm-controlcenter-ring-on-filled:before {
+  content: "\ebf8";
+}
+.hm-controlcenter-ring-off-filled:before {
+  content: "\ebf9";
+}
+.hm-controlcenter-flashlight-on-filled:before {
+  content: "\ebfa";
+}
+.hm-controlcenter-flashlight-off-filled:before {
+  content: "\ebfb";
+}
+.hm-controlcenter-ultra-power-saver-filled:before {
+  content: "\ebfc";
+}
+.hm-controlcenter-super-power-saver-filled:before {
+  content: "\ebfd";
+}
+.hm-controlcenter-screenshot-filled:before {
+  content: "\ebfe";
+}
+.hm-controlcenter-screen-recording-filled:before {
+  content: "\ebff";
+}
+.hm-controlcenter-floatingdock-filled:before {
+  content: "\ec00";
+}
+.hm-controlcenter-brightness-plus:before {
+  content: "\ec01";
+}
+.hm-controlcenter-brightness-reduce:before {
+  content: "\ec02";
+}
+.hm-controlcenter-donotdisturb-filled:before {
+  content: "\ec03";
+}
+.hm-public-settings:before {
+  content: "\ec04";
+}
+.hm-public-settings-filled:before {
+  content: "\ec05";
+}
+.hm-public-sim:before {
+  content: "\ec06";
+}
+.hm-public-sim-filled:before {
+  content: "\ec07";
+}
+.hm-public-themes:before {
+  content: "\ec08";
+}
+.hm-public-themes-filled:before {
+  content: "\ec09";
+}
+.hm-public-display:before {
+  content: "\ec0a";
+}
+.hm-public-display-filled:before {
+  content: "\ec0b";
+}
+.hm-public-brightness:before {
+  content: "\ec0c";
+}
+.hm-public-brightness-filled:before {
+  content: "\ec0d";
+}
+.hm-public-sound:before {
+  content: "\ec0e";
+}
+.hm-public-sound-filled:before {
+  content: "\ec0f";
+}
+.hm-public-volume-down:before {
+  content: "\ec10";
+}
+.hm-public-volume-down-filled:before {
+  content: "\ec11";
+}
+.hm-public-sound-off:before {
+  content: "\ec12";
+}
+.hm-public-sound-off-filled:before {
+  content: "\ec13";
+}
+.hm-public-vibration:before {
+  content: "\ec14";
+}
+.hm-public-vibration-filled:before {
+  content: "\ec15";
+}
+.hm-public-donotdisturb:before {
+  content: "\ec16";
+}
+.hm-public-donotdisturb-filled:before {
+  content: "\ec17";
+}
+.hm-public-ring:before {
+  content: "\ec18";
+}
+.hm-public-ring-filled:before {
+  content: "\ec19";
+}
+.hm-public-ring-off:before {
+  content: "\ec1a";
+}
+.hm-public-ring-off-filled:before {
+  content: "\ec1b";
+}
+.hm-public-password-invisible:before {
+  content: "\ec1c";
+}
+.hm-public-visual-accessibility:before {
+  content: "\ec1d";
+}
+.hm-public-app:before {
+  content: "\ec1e";
+}
+.hm-public-app-filled:before {
+  content: "\ec1f";
+}
+.hm-public-appstore:before {
+  content: "\ec20";
+}
+.hm-public-appstore-filled:before {
+  content: "\ec21";
+}
+.hm-public-battery:before {
+  content: "\ec22";
+}
+.hm-public-battery-filled:before {
+  content: "\ec23";
+}
+.hm-public-storage:before {
+  content: "\ec24";
+}
+.hm-public-storage-filled:before {
+  content: "\ec25";
+}
+.hm-public-sd:before {
+  content: "\ec26";
+}
+.hm-public-sd-filled:before {
+  content: "\ec27";
+}
+.hm-public-security:before {
+  content: "\ec28";
+}
+.hm-public-security-filled:before {
+  content: "\ec29";
+}
+.hm-public-privacy:before {
+  content: "\ec2a";
+}
+.hm-public-gps:before {
+  content: "\ec2b";
+}
+.hm-public-gps-filled:before {
+  content: "\ec2c";
+}
+.hm-public-navigation:before {
+  content: "\ec2d";
+}
+.hm-public-navigation-filled:before {
+  content: "\ec2e";
+}
+.hm-public-quickstart:before {
+  content: "\ec2f";
+}
+.hm-public-quickstart-filled:before {
+  content: "\ec30";
+}
+.hm-public-calendar:before {
+  content: "\ec31";
+}
+.hm-public-calendar-filled:before {
+  content: "\ec32";
+}
+.hm-public-time:before {
+  content: "\ec33";
+}
+.hm-public-time-filled:before {
+  content: "\ec34";
+}
+.hm-public-clock:before {
+  content: "\ec35";
+}
+.hm-public-clock-filled:before {
+  content: "\ec36";
+}
+.hm-public-worldclock:before {
+  content: "\ec37";
+}
+.hm-public-worldclock-filled:before {
+  content: "\ec38";
+}
+.hm-public-stopwatch:before {
+  content: "\ec39";
+}
+.hm-public-stopwatch-filled:before {
+  content: "\ec3a";
+}
+.hm-public-timer:before {
+  content: "\ec3b";
+}
+.hm-public-timer-filled:before {
+  content: "\ec3c";
+}
+.hm-public-camera:before {
+  content: "\ec3d";
+}
+.hm-public-camera-filled:before {
+  content: "\ec3e";
+}
+.hm-public-video:before {
+  content: "\ec3f";
+}
+.hm-public-video-filled:before {
+  content: "\ec40";
+}
+.hm-public-screencap:before {
+  content: "\ec41";
+}
+.hm-public-screencap-filled:before {
+  content: "\ec42";
+}
+.hm-gallery-shortcut-gallery .path1:before {
+  content: "\ec43";
+  color: rgb(0, 0, 0);
+}
+.hm-gallery-shortcut-gallery .path2:before {
+  content: "\ec44";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-gallery-shortcut-favorite .path1:before {
+  content: "\ec45";
+  color: rgb(0, 0, 0);
+}
+.hm-gallery-shortcut-favorite .path2:before {
+  content: "\ec46";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-gallery-shortcut-discover .path1:before {
+  content: "\ec47";
+  color: rgb(0, 0, 0);
+}
+.hm-gallery-shortcut-discover .path2:before {
+  content: "\ec48";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.hm-public-picture:before {
+  content: "\ec49";
+}
+.hm-public-picture-filled:before {
+  content: "\ec4a";
+}
+.hm-public-albums:before {
+  content: "\ec4b";
+}
+.hm-public-albums-filled:before {
+  content: "\ec4c";
+}
+.hm-public-highlights:before {
+  content: "\ec4d";
+}
+.hm-public-highlights-filled:before {
+  content: "\ec4e";
+}
+.hm-gallery-discover:before {
+  content: "\ec4f";
+}
+.hm-gallery-discover-filled .path1:before {
+  content: "\ec50";
+  color: rgb(10, 89, 247);
+}
+.hm-gallery-discover-filled .path2:before {
+  content: "\ec51";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+.hm-public-favorites:before {
+  content: "\ec52";
+}
+.hm-public-favorites-filled:before {
+  content: "\ec53";
+}
+.hm-public-highlight:before {
+  content: "\ec54";
+}
+.hm-public-highlight-filled:before {
+  content: "\ec55";
+}
+.hm-public-thumbsup:before {
+  content: "\ec56";
+}
+.hm-public-thumbsup-filled:before {
+  content: "\ec57";
+}
+.hm-gallery-blur:before {
+  content: "\ec58";
+}
+.hm-gallery-blur-filled:before {
+  content: "\ec59";
+}
+.hm-public-save:before {
+  content: "\ec5a";
+}
+.hm-public-save-filled:before {
+  content: "\ec5b";
+}
+.hm-gallery-list-damage:before {
+  content: "\ec5c";
+}
+.hm-gallery-puzzle:before {
+  content: "\ec5d";
+}
+.hm-gallery-map-all:before {
+  content: "\ec5e";
+}
+.hm-gallery-cloud-synchronization:before {
+  content: "\ec5f";
+}
+.hm-gallery-nocloud-light:before {
+  content: "\ec60";
+}
+.hm-files-cloud-browse:before {
+  content: "\ec61";
+}
+.hm-public-file:before {
+  content: "\ec62";
+}
+.hm-public-file-filled:before {
+  content: "\ec63";
+}
+.hm-public-notes:before {
+  content: "\ec64";
+}
+.hm-public-notes-filled:before {
+  content: "\ec65";
+}
+.hm-public-clean:before {
+  content: "\ec66";
+}
+.hm-public-clean-filled:before {
+  content: "\ec67";
+}
+.hm-public-history:before {
+  content: "\ec68";
+}
+.hm-public-filter:before {
+  content: "\ec69";
+}
+.hm-files-time-sort:before {
+  content: "\ec6a";
+}
+.hm-files-size-sort:before {
+  content: "\ec6b";
+}
+.hm-files-type-sort:before {
+  content: "\ec6c";
+}
+.hm-files-spreadsheet-drive:before {
+  content: "\ec6d";
+}
+.hm-files-presentation-drive:before {
+  content: "\ec6e";
+}
+.hm-public-printer:before {
+  content: "\ec6f";
+}
+.hm-public-drawer:before {
+  content: "\ec70";
+}
+.hm-public-drawer-filled:before {
+  content: "\ec71";
+}
+.hm-public-code:before {
+  content: "\ec72";
+}
+.hm-public-code-filled:before {
+  content: "\ec73";
+}
+.hm-contacts-birthday:before {
+  content: "\ec74";
+}
+.hm-contacts-birthday-filled:before {
+  content: "\ec75";
+}
+.hm-contacts-blood-type:before {
+  content: "\ec76";
+}
+.hm-public-home:before {
+  content: "\ec77";
+}
+.hm-public-home-filled:before {
+  content: "\ec78";
+}
+.hm-contacts-company:before {
+  content: "\ec79";
+}
+.hm-contacts-company-filled:before {
+  content: "\ec7a";
+}
+.hm-contacts-earpiece-emergency:before {
+  content: "\ec7b";
+}
+.hm-contacts-emergency-information-drug:before {
+  content: "\ec7c";
+}
+.hm-contacts-medication-status-precautions:before {
+  content: "\ec7d";
+}
+.hm-contacts-organ-donors:before {
+  content: "\ec7e";
+}
+.hm-public-email:before {
+  content: "\ec7f";
+}
+.hm-public-email-filled:before {
+  content: "\ec80";
+}
+.hm-public-email-send:before {
+  content: "\ec81";
+}
+.hm-public-email-send-filled:before {
+  content: "\ec82";
+}
+.hm-public-fast:before {
+  content: "\ec83";
+}
+.hm-public-fast-filled:before {
+  content: "\ec84";
+}
+.hm-public-emoji:before {
+  content: "\ec85";
+}
+.hm-public-emoji-filled:before {
+  content: "\ec86";
+}
+.hm-public-face:before {
+  content: "\ec87";
+}
+.hm-public-face-filled:before {
+  content: "\ec88";
+}
+.hm-message-allread:before {
+  content: "\ec89";
+}
+.hm-public-voice:before {
+  content: "\ec8a";
+}
+.hm-public-voice-filled:before {
+  content: "\ec8b";
+}
+.hm-message-continue:before {
+  content: "\ec8c";
+}
+.hm-message-ppt:before {
+  content: "\ec8d";
+}
+.hm-message-camera .path1:before {
+  content: "\ec8e";
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.hm-message-camera .path2:before {
+  content: "\ec8f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hm-message-camera .path3:before {
+  content: "\ec90";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.hm-message-emoji .path1:before {
+  content: "\ec91";
+  color: rgb(0, 0, 0);
+  opacity: 0.0360;
+}
+.hm-message-emoji .path2:before {
+  content: "\ec92";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.36;
+}
+.hm-message-emoji .path3:before {
+  content: "\ec93";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.36;
+}
+.hm-message-emoji .path4:before {
+  content: "\ec94";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.36;
+}
+.hm-message-emoji .path5:before {
+  content: "\ec95";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.36;
+}
+.hm-message-emoji-1 .path1:before {
+  content: "\ec96";
+  color: rgb(0, 0, 0);
+  opacity: 0.18;
+}
+.hm-message-emoji-1 .path2:before {
+  content: "\ec97";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.225;
+}
+.hm-message-emoji-2 .path1:before {
+  content: "\ec98";
+  color: rgb(0, 0, 0);
+  opacity: 0.0400;
+}
+.hm-message-emoji-2 .path2:before {
+  content: "\ec99";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.hm-message-emoji-2 .path3:before {
+  content: "\ec9a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.hm-message-emoji-2 .path4:before {
+  content: "\ec9b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.hm-message-emoji-2 .path5:before {
+  content: "\ec9c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.hm-message-symbol:before {
+  content: "\ec9d";
+}
+.hm-public-lock:before {
+  content: "\ec9e";
+}
+.hm-public-lock-filled:before {
+  content: "\ec9f";
+}
+.hm-public-unlock:before {
+  content: "\eca0";
+}
+.hm-public-unlock-filled:before {
+  content: "\eca1";
+}
+.hm-public-flashlight:before {
+  content: "\eca2";
+}
+.hm-public-flashlight-filled:before {
+  content: "\eca3";
+}
+.hm-desktop-servicewidgets:before {
+  content: "\eca4";
+}
+.hm-desktop-pin:before {
+  content: "\eca5";
+}
+.hm-desktop-widgets:before {
+  content: "\eca6";
+}
+.hm-desktop-transitions:before {
+  content: "\eca7";
+}
+.hm-desktop-perspective:before {
+  content: "\eca8";
+}
+.hm-desktop-squeeze:before {
+  content: "\eca9";
+}
+.hm-desktop-box:before {
+  content: "\ecaa";
+}
+.hm-desktop-flipover:before {
+  content: "\ecab";
+}
+.hm-desktop-rotate:before {
+  content: "\ecac";
+}
+.hm-desktop-page:before {
+  content: "\ecad";
+}
+.hm-desktop-windmill:before {
+  content: "\ecae";
+}
+.hm-public-cards:before {
+  content: "\ecaf";
+}
+.hm-public-cards-filled:before {
+  content: "\ecb0";
+}
+.hm-public-car:before {
+  content: "\ecb1";
+}
+.hm-public-car-filled .path1:before {
+  content: "\ecb2";
+  color: rgb(0, 0, 0);
+}
+.hm-public-car-filled .path2:before {
+  content: "\ecb3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.125;
+}
+.hm-public-questionnaire:before {
+  content: "\ecb4";
+}
+.hm-public-questionnaire-filled:before {
+  content: "\ecb5";
+}
+.hm-public-feedback:before {
+  content: "\ecb6";
+}
